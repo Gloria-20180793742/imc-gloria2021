@@ -23,9 +23,9 @@ public class ImcController {
 	@RequestMapping("/")
     @ResponseBody
     String home() {
-      return "<h1> Hello World! De novo </h1>"
+      return "<h1> Hello World! De novo e de novo </h1>"
       		+ "  <p> Alô, meu nome é Glória Feitosa</p>"
-      		+ " <hr>  "
+      		+ " <hr>  Esta é a atividade final "
       		+ "  ESTÁ TUDO FUNCIONANDO.....";
     }
 	
